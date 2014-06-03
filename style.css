@@ -1,12 +1,11 @@
 /*
-	Theme Name: Modern Portfolio Pro Theme
-	Theme URI: http://my.studiopress.com/themes/modern-portfolio/
+	Theme Name: C4 Atlanta
+	Theme URI: http://c4atlanta.org/
 	Description: A mobile responsive and HTML5 theme built for the Genesis Framework.
-	Author: StudioPress
-	Author URI: http://www.studiopress.com/
-	Version: 2.0.0
+	Author: StudioPress and C4 Atlanta
+	Author URI: http://c4atlanta.org/
+	Version: 20140603
 
-	Tags: black, white, one-column, two-columns, responsive-layout, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, premise-landing-page
 
 	Template: genesis
 	Template Version: 2.0.0
@@ -906,12 +905,15 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header .wrap {
-	border-bottom: 1px solid #222;
+	/* border-bottom: 1px solid #222; */
 	overflow: hidden;
-	padding: 32px 0;
-	padding: 3.2rem 0;
+	padding: 0;
+	/* padding: 3.2rem 0; */
 }
 
+.site-header {
+	border-bottom: 3px solid #000;
+}
 .mpp-home .site-header .wrap {
 	border: none;
 }
